@@ -1,0 +1,19 @@
+{
+  "name": "tanc.red",
+  "version": "1.0.0",
+  "description": "Simple redirect server including personal file sharing functionality.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Tancred",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

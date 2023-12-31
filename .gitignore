@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# Shared files
+share/*
+!share/.gitkeep
+
+# Config files with sensitive data
+config.json

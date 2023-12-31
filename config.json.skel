@@ -1,0 +1,11 @@
+{
+    "is_production": true,
+    "password": "",
+    "default_redirect": "https://your-default-redirect.com",
+    "redirects": [
+        {
+            "from": "/your-route*",
+            "to": "https://your-destination-url.com"
+        }
+    ]
+}
