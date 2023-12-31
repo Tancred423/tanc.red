@@ -1,9 +1,9 @@
 const path = require('path')
 const express = require('express')
 const app = express()
-const port = 7000
 const fs = require('fs')
 const config = require('../config.json')
+const port = config.port
 
 app.set('view engine', 'ejs')
 app.set('views', path.join(__dirname, 'views'))

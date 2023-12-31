@@ -1,6 +1,7 @@
 {
     "is_production": true,
     "password": "",
+    "port": 7000,
     "default_redirect": "https://your-default-redirect.com",
     "redirects": [
         {
