@@ -1,6 +1,6 @@
 # [tanc.red](https://tanc.red)
 
-## This is a simple redirect server including personal file sharing functionality.
+### This is a simple redirect server including personal file sharing functionality.
 
 It mainly functions as my URL shortener with some manual setup. If the given redirect is not found, it will redirect to my actual website by default. Both the redirects as well as the default redirect can be set up in the `config.json` file.
 
