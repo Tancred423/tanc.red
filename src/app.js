@@ -51,6 +51,6 @@ app.listen(port, () => {
   } else {
     console.log(`http://localhost:${port}`)
     console.log(`http://localhost:${port}/share`)
-    console.log(`http://localhost:${port}/share?password=testpw`)
+    console.log(`http://localhost:${port}/share?password=${config.password}`)
   }
 })
